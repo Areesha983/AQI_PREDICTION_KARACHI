@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "model_name": "Ridge",
+    "horizon_hours": 48,
+    "total_features_evaluated": 20,
+    "total_features_drifted": 19,
+    "system_status": "CRITICAL_RETRAIN_REQUIRED"
+  },
+  "feature_metrics": {
+    "wind_gusts_roll_max_24": {
+      "ks_statistic": 0.12902359600840507,
+      "p_value": 3.1751846277584353e-59,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "aqi_roll_max_168": {
+      "ks_statistic": 0.2382453589024306,
+      "p_value": 1.0510023102148467e-202,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "spike_count_72h": {
+      "ks_statistic": 0.10438773285703717,
+      "p_value": 7.183598860948569e-39,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "pm25": {
+      "ks_statistic": 0.12148029926990705,
+      "p_value": 1.5712278171830621e-52,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "co_roll_mean_24": {
+      "ks_statistic": 0.24466449888812383,
+      "p_value": 6.634858960898329e-214,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "aqi_lag_72": {
+      "ks_statistic": 0.12608561213994984,
+      "p_value": 1.437982903713976e-56,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "aqi_roll_std_72": {
+      "ks_statistic": 0.21155645692786595,
+      "p_value": 1.7381772409412681e-159,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "month_cos": {
+      "ks_statistic": 0.13498770370455065,
+      "p_value": 8.300364083605817e-65,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "aqi_lag_24": {
+      "ks_statistic": 0.12285987045003721,
+      "p_value": 1.0056388556783898e-53,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "aqi_roll_std_168": {
+      "ks_statistic": 0.23339024228428568,
+      "p_value": 1.9240444113870244e-194,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "pm25_roll_std_24": {
+      "ks_statistic": 0.17717336373913747,
+      "p_value": 1.187664786018011e-111,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "so2_roll_mean_24": {
+      "ks_statistic": 0.28146126550598294,
+      "p_value": 3.1438325537624315e-284,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "pm25_roll_mean_168": {
+      "ks_statistic": 0.18827430087768127,
+      "p_value": 3.863279569301787e-126,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "o3_roll_std_24": {
+      "ks_statistic": 0.18037938384726224,
+      "p_value": 9.630948374040261e-116,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "pm25_pm10_ratio": {
+      "ks_statistic": 0.35468358982247605,
+      "p_value": 0.0,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "pm25_roll_mean_336": {
+      "ks_statistic": 0.22657891316179812,
+      "p_value": 3.7563673578080376e-183,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "doy_cos": {
+      "ks_statistic": 0.1900834036773349,
+      "p_value": 1.3798739642757298e-128,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "aqi_zscore_72h": {
+      "ks_statistic": 0.022637176121215186,
+      "p_value": 0.0310564708474379,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "weekday_sin": {
+      "ks_statistic": 0.005167408973709764,
+      "p_value": 0.9999000803493904,
+      "drift_detected": false,
+      "status": "Success"
+    },
+    "aqi_trend_ratio": {
+      "ks_statistic": 0.027462830025713925,
+      "p_value": 0.004368120258534977,
+      "drift_detected": true,
+      "status": "Success"
+    }
+  }
+}

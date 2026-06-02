@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "model_name": "RF",
+    "horizon_hours": 24,
+    "total_features_evaluated": 20,
+    "total_features_drifted": 20,
+    "system_status": "CRITICAL_RETRAIN_REQUIRED"
+  },
+  "feature_metrics": {
+    "pm25": {
+      "ks_statistic": 0.12148029926990705,
+      "p_value": 1.5712278171830621e-52,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "pm25_roll_mean_168": {
+      "ks_statistic": 0.18827430087768127,
+      "p_value": 3.863279569301787e-126,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "pm25_roll_mean_24": {
+      "ks_statistic": 0.14643115818468025,
+      "p_value": 3.08332781805661e-76,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "pm25_roll_std_336": {
+      "ks_statistic": 0.25264272519819414,
+      "p_value": 2.901967043988635e-228,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "co": {
+      "ks_statistic": 0.19518398086377248,
+      "p_value": 1.288713139564037e-135,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "aqi_lag_24": {
+      "ks_statistic": 0.12285987045003721,
+      "p_value": 1.0056388556783898e-53,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "pm25_roll_mean_72": {
+      "ks_statistic": 0.16222834906029765,
+      "p_value": 1.4171594610137758e-93,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "month_cos": {
+      "ks_statistic": 0.13498770370455065,
+      "p_value": 8.300364083605817e-65,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "interaction_pm25_wind_inverse": {
+      "ks_statistic": 0.2974277340305821,
+      "p_value": 4.882515e-318,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "co_roll_mean_24": {
+      "ks_statistic": 0.24466449888812383,
+      "p_value": 6.634858960898329e-214,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "aqi_roll_min_24": {
+      "ks_statistic": 0.07791840964455374,
+      "p_value": 7.916270319246531e-22,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "pm10": {
+      "ks_statistic": 0.193754480843098,
+      "p_value": 1.2581486968878783e-133,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "pm25_pm10_ratio": {
+      "ks_statistic": 0.35468358982247605,
+      "p_value": 0.0,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "aqi_roll_min_72": {
+      "ks_statistic": 0.060623557416150164,
+      "p_value": 2.2292752330389286e-13,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "aqi_lag_48": {
+      "ks_statistic": 0.12346999857694385,
+      "p_value": 2.9520089467788396e-54,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "hours_since_aqi_spike": {
+      "ks_statistic": 0.26005708267814465,
+      "p_value": 4.783748526943742e-242,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "pm25_vs_72h_avg": {
+      "ks_statistic": 0.055654259487177726,
+      "p_value": 2.4249543793585917e-11,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "pm25_vs_24h_avg": {
+      "ks_statistic": 0.06461808625049875,
+      "p_value": 3.842136137298127e-15,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "aqi_persistence_ratio": {
+      "ks_statistic": 0.047911726022644874,
+      "p_value": 1.6228132276969405e-08,
+      "drift_detected": true,
+      "status": "Success"
+    },
+    "temperature_roll_mean_24": {
+      "ks_statistic": 0.28097572459418196,
+      "p_value": 3.1191665589761267e-283,
+      "drift_detected": true,
+      "status": "Success"
+    }
+  }
+}

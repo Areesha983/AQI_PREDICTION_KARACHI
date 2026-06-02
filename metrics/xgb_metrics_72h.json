@@ -1,0 +1,52 @@
+{
+  "horizon": 72,
+  "cv_mean_val_rmse": 25.35636201684279,
+  "cv_std_val_rmse": 1.5970283382957418,
+  "test_rmse": 27.09622675991503,
+  "test_mae": 21.118096395449346,
+  "test_mape": 25.383976101134863,
+  "test_r2": 0.1164745250261896,
+  "test_explained_variance": 0.11718550043086595,
+  "baseline_mae": 26.777508090614887,
+  "mae_improvement_vs_baseline": 5.6594116951655415,
+  "baseline_r2": -0.4240425594260029,
+  "r2_improvement_vs_baseline": 0.5405170844521925,
+  "conformal_margin_of_error": 34.41536469442319,
+  "prediction_interval_target_coverage": 0.95,
+  "prediction_interval_observed_coverage": 0.7954692556634304,
+  "prediction_interval_average_width": 68.8307293888464,
+  "spike_precision": 0.0,
+  "spike_recall": 0.0,
+  "f1": 0.0,
+  "error_by_band": {
+    "all": {
+      "n": 6180,
+      "mae": 21.118096395449346
+    },
+    "good_moderate": {
+      "n": 4228,
+      "mae": 17.510767221225244
+    },
+    "unhealthy_sensitive": {
+      "n": 1557,
+      "mae": 24.049579181805893
+    },
+    "unhealthy": {
+      "n": 395,
+      "mae": 48.1749800669996
+    },
+    "very_unhealthy": {
+      "n": 0,
+      "mae": null
+    },
+    "hazardous": {
+      "n": 0,
+      "mae": null
+    }
+  },
+  "quantile_errors": {
+    "mae_top_90": 44.563725247014006,
+    "mae_top_95": 48.55343549361397,
+    "mae_top_99": 57.50446402060019
+  }
+}

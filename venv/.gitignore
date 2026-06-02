@@ -1,0 +1,79 @@
+# ==========================================
+# 🧠 Machine Learning Artifacts & Core Data
+# ==========================================
+# Never commit serialized production models (joblib/pickle)
+models/
+
+# Do not commit raw/processed datasets or pipeline metrics
+data/
+metrics/
+
+# If you want to track feature manifests but ignore predictions/metrics, 
+# you can un-comment the lines below:
+# metrics/*
+# !metrics/*_features_*.csv
+
+# ==========================================
+# 🐍 Python Runtime & Environment Layers
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# 🖥️ IDE, Text Editors, & OS Artifacts
+# ==========================================
+# JetBrains / PyCharm
+.idea/
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# 📊 Streamlit & Frontend Caching Logs
+# ==========================================
+.streamlit/config.toml
+.streamlit/secrets.toml

@@ -1,0 +1,10 @@
+{
+  "horizon": 48,
+  "rmse": 25.384090423583984,
+  "mae": 20.03262710571289,
+  "r2": 0.21368801593780518,
+  "lookback": 24,
+  "top_n_features": 40,
+  "actual_features": 40,
+  "epochs_ran": 40
+}
